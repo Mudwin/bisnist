@@ -543,3 +543,95 @@ body {
 .services__section-text {
   text-align: center;
 }
+
+.stats {
+  font-family: "Montserrat";
+  margin-bottom: 155px;
+}
+
+.stats__content {
+  background-color: var(--blue-color);
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 84px;
+  padding-block: 48px;
+}
+
+.stats__item {
+  display: flex;
+}
+
+.stats__icon {
+  width: 52.73px;
+  height: 52.73px;
+  margin-right: 12px;
+  padding: 4px;
+}
+
+.stats__icon img {
+  width: 100%;
+  height: 100%;
+}
+
+.stats__number {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.438rem;
+  margin-bottom: 10px;
+}
+
+.stats__subtext {
+  font-size: 0.938rem;
+  font-weight: 600;
+  line-height: 1.125rem;
+}
+
+.prices {
+  font-family: "Montserrat";
+  margin-bottom: 128px;
+}
+
+.prices__header {
+  margin-bottom: 20px;
+}
+
+.prices__text {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.prices__tables {
+  display: flex;
+  gap: 20px;
+}
+
+.prices__table {
+  background-color: var(--section-black);
+  border-radius: 19px;
+  flex: 33.333%;
+  min-height: 466px;
+  padding-top: 43px;
+  padding-inline: 52px;
+}
+
+.prices__table-header {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.prices__table-price {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  margin-bottom: 43.5px;
+}
+
+.prices__table-price span {
+  padding-right: 8px;
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 3.813rem;
+}
