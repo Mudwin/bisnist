@@ -1,9 +1,5 @@
 # What to do
 
-- Make prices block
-- Make blog block
-- Make footer
-
 - Add statements to clickable elements
 - Add transitions as in design
 - Add animations

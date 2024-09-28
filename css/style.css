@@ -635,3 +635,146 @@ body {
   font-weight: 600;
   line-height: 3.813rem;
 }
+
+.blog {
+  margin-bottom: 126px;
+}
+
+.blog__header {
+  margin-bottom: 20px;
+}
+
+.blog__text {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.blog__posts {
+  display: flex;
+  gap: 30px;
+}
+
+.blog__post {
+  border-radius: 12px;
+  background-color: var(--section-black);
+  flex: 33.333%;
+}
+
+.blog__post-img {
+  width: 100%;
+  max-height: 237px;
+  margin-bottom: 38px;
+}
+
+.blog__post-container {
+  padding-inline: 34px;
+  padding-bottom: 31px;
+}
+
+.blog__post-header {
+  font-family: "Montserrat";
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  margin-bottom: 13px;
+}
+
+.blog__post-text {
+  margin-bottom: 25px;
+}
+
+.blog__post-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog__post-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  background-color: var(--blue-color);
+  width: 87px;
+  height: 35px;
+  font-family: "Montserrat";
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 0.938rem;
+}
+
+.blog__post-stats {
+  display: flex;
+  gap: 11px;
+  align-items: center;
+}
+
+.blog__post-stats-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.blog__post-icon {
+  width: 21.47px;
+}
+
+.blog__post-icon img {
+  width: 100%;
+}
+
+.blog__post-stats-number {
+  font-family: "Rubik";
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 167.09%;
+}
+
+.footer {
+  background-color: var(--blue-color);
+  padding-block: 50px;
+}
+
+.footer__content {
+  display: flex;
+  gap: 88px;
+}
+
+.footer__header {
+  font-family: "Montserrat";
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.875rem;
+  margin-bottom: 18px;
+}
+
+.footer__menu {
+  min-width: max-content;
+}
+
+.footer__menu-header {
+  font-family: "Montserrat";
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.375rem;
+  margin-bottom: 18px;
+}
+
+.footer__menu-item {
+  color: var(--small-text-color);
+  font-family: "Rubik";
+  font-size: 0.969rem;
+  font-weight: 400;
+  line-height: 167.09%;
+  margin-bottom: 2px;
+}
+
+.footer__menu-item a {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.footer__menu-item span {
+  font-family: "Montserrat";
+  font-weight: 00;
+  font-size: 0.9rem;
+}
